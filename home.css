@@ -1,0 +1,168 @@
+header{
+    width: 100%;
+	height: 70px;
+	position: fixed;
+    background-color: rgba(255, 255, 255, 0.918);
+    left: 0;
+    right: 0;
+    top: 0;
+    border: solid rgb(161, 28, 28);
+}
+
+header h1{
+    margin-top: 10px;
+    text-align-last: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#pen1{
+    color: #282828;
+	font-family: 'Lobster', cursive;
+}
+
+#hati{
+    background: -webkit-linear-gradient(#282828, rgb(161, 28, 28));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#PENPEN {
+    text-align: center;
+    color: rgb(161, 28, 28);
+    letter-spacing: 5px;
+}
+
+.navlist {
+	width:  auto;
+	float: left;
+    margin-left: 5px;
+}
+
+.navname {
+    color: white;
+	display: inline-block;
+	padding: 15px 30px;
+    background: -webkit-linear-gradient(#282828, rgb(161, 28, 28));
+	border-radius: 7px;
+}
+
+body, html{
+    box-sizing: border-box;
+    padding: 0;
+    overflow: overlay;
+    background:linear-gradient( rgba(255, 255, 255, 0.116), rgba(255, 255, 255, 0.437)), url(contactusbg.png);
+}
+
+.socmed {
+    color: #ffffff;
+    display: inline-block;
+	padding: 15px 30px;
+    background: -webkit-linear-gradient(#282828, rgb(161, 28, 28), #282828);
+	border-radius: 7px;
+}
+
+.socmedlist{
+    width:  auto;
+	float: right;
+    margin-right: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: "Open Sans";
+    color: inherit;
+}
+
+.navlist, .socmedlist {
+    margin-top: -47px;
+}
+
+.socmedlist a:hover {
+	-webkit-filter: brightness(65%);
+	transition: 1s;
+}
+
+.navlist a:hover{
+	-webkit-filter: brightness(65%);
+	transition: 1s;
+}
+
+::-webkit-scrollbar {
+	background: transparent;
+	width: 3px;
+	-webkit-filter: brightness(50%);
+}
+
+::-webkit-scrollbar-thumb {
+
+	background: #282828;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align: center;
+    background:linear-gradient( rgba(255, 255, 255, 0.116), rgba(255, 255, 255, 0.437)), url(../contactusbg.png);
+    perspective:10000px;
+  }
+  .td_letter{
+    color:#f56046d0;font-size:8em;transform-style:preserve-3d;transform-origin: 50% 50%;text-shadow: 0 1px 0 #999, 0 2px 0 #999, 0 3px 0 #999, 0 4px 0 #999, 0 5px 0 #999, 0 6px 0 #999, 0 7px 0 #999, 0 8px 0 #999, 0 9px 0 #999, 0 50px 30px rgba(0, 0, 0, 0.3);animation:anim 2s ease infinite alternate;}
+  @keyframes anim{
+    0%{transform: translateZ(70px);
+      text-shadow: 0 1px 0 #999, 0 2px 0 #999, 0 3px 0 #999, 0 4px 0 #999, 0 5px 0 #999, 0 6px 0 #999, 0 7px 0 #999, 0 8px 0 #999, 0 9px 0 #999, 0 50px 30px rgba(0, 0, 0, 0.3);}
+   100%{
+      transform: translateZ(0px);
+    text-shadow: 0 1px 0 #999, 0 2px 0 #999, 0 3px 0 #999, 0 4px 0 #999, 0 5px 0 #999, 0 6px 0 #999, 0 7px 0 #999, 0 8px 0 #999, 0 9px 0 #999, 0 10px 10px rgba(0, 0, 0, 0.7);}}
+/*Footer*/
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 1;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+.footer-content{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.socmedlistFooter{
+    list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.socmedlistFooter li{
+	margin: 0 10px;
+}
+
+.socmedlistFooter a{
+	color: rgb(161, 28, 28);
+}
+
+.socmedlistFooter a i {
+	font-size: 1.1rem;
+}
+
+.socmedFooter a:hover i{
+	-webkit-filter: brightness(65%);
+	transition: 1s;
+}

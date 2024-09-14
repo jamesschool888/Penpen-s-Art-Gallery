@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.pictures img:hover{
+    -webkit-filter: brightness(100%);
+}
+
+.pictures img{
+    -webkit-filter: brightness(50%);
+    border-radius: 7px;
+}
+
+.pictures{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.116),rgb(255, 255, 255), rgb(255, 255, 255)), url(contactusbg.png);
+    overflow: hidden;
+}
+.pictures .Bg{
+   width: 300px;
+   margin: 100px auto 0;
+   overflow: visible;
+}
+.Bg img{
+    -webkit-box-reflect: below 20px linear-gradient(rgba(225,225,225,0.1), rgba(225,225,225,0.3));
+}
+
+.container{
+    max-width: 85%;
+    margin: 20px auto;
+}
+
+.container .gallery{
+columns: 3 250px;
+gap: 15px;
+}
+
+.container .gallery img{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: solid rgb(161, 28, 28);
+}
+
+.container .gallery img:hover{
+    -webkit-filter: brightness(50%);
+    transition: 1s;
+}
+
+/*header*/
+
+header{
+    width: 100%;
+	height: 70px;
+	position: fixed;
+    background-color: rgba(255, 255, 255, 0.918);
+    left: 0;
+    right: 0;
+    top: 0;
+    border: solid rgb(161, 28, 28);
+    z-index: 99999;
+}
+
+header h1{
+    margin-top: 10px;
+    text-align-last: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#pen1{
+    color: #282828;
+	font-family: 'Lobster', cursive;
+}
+
+#hati{
+    background: -webkit-linear-gradient(#282828, rgb(161, 28, 28));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#PENPEN {
+    text-align: center;
+    color: rgb(161, 28, 28);
+    letter-spacing: 5px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.navlist {
+	width:  auto;
+	float: left;
+    margin-left: 5px;
+}
+
+.navname {
+    color: white;
+	display: inline-block;
+	padding: 15px 30px;
+	background: -webkit-linear-gradient(#282828, rgb(161, 28, 28));
+	border-radius: 7px;
+}
+
+body, html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: overlay;
+    background:linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255),rgba(255, 255, 255, 0.292), rgba(255, 255, 255, 0.358)), url(contactusbg.png);
+}
+
+.socmed {
+    color: #ffffff;
+    display: inline-block;
+	padding: 15px 30px;
+	background: -webkit-linear-gradient(#282828, rgb(161, 28, 28), #282828);
+	border-radius: 7px;
+}
+
+.socmedlist{
+    width:  auto;
+	float: right;
+    margin-right: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: "Open Sans";
+    color: inherit;
+}
+
+.navlist, .socmedlist {
+    margin-top: -47px;
+}
+
+.socmedlist a:hover {
+	-webkit-filter: brightness(65%);
+	transition: 1s;
+}
+
+.navlist a:hover{
+	-webkit-filter: brightness(65%);
+	transition: 1s;
+}
+
+::-webkit-scrollbar {
+	background: transparent;
+	width: 3px;
+	-webkit-filter: brightness(50%);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #282828;
+}
+
+/* FOOTER */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 10;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+.socmedlistFooter{
+    justify-content: center;
+    list-style: none;
+	display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.madeBy{
+    list-style: none;
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 2.5px;
+}
+
+
+.footer-content h3{
+    font-size: 1.4rem;
+	font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.socmedlistFooter li{
+	margin: 0 10px;
+}
+
+.socmedlistFooter a{
+	color: rgb(161, 28, 28);
+}
+
+.socmedlistFooter a i {
+	font-size: 1.1rem;
+}
+
+.socmedFooter a:hover i{
+	-webkit-filter: brightness(65%);
+	transition: 1s;
+}
+
+
+/* FOOTER */
